@@ -1,0 +1,30 @@
+{
+  "name": "rsc-trello",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_OPTIONS=\"-C react-server\" twofold"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "@twofold/framework": "^0.0.6",
+    "react": "18.3.0-canary-60a927d04-20240113",
+    "react-dom": "18.3.0-canary-60a927d04-20240113",
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "eslint": "^8.56.0",
+    "eslint-plugin-twofold": "^0.0.6",
+    "prettier": "^3.2.4",
+    "prettier-plugin-tailwindcss": "^0.5.11"
+  }
+}
