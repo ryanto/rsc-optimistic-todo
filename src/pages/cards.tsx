@@ -70,7 +70,7 @@ export default function Cards({
   );
 
   return (
-    <div className="max-w-xs rounded border border-gray-200 bg-gray-100 p-4 shadow">
+    <div className="mx-auto max-w-sm rounded border border-gray-200 bg-gray-100 p-4 shadow sm:mx-0">
       <h2 className="text-sm font-semibold text-gray-900">Cards</h2>
       <ul className="mt-4 space-y-2">
         {sortedCards.map((card) => (

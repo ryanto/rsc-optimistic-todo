@@ -10,7 +10,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
       </head>
       <body className="bg-blue-600 text-gray-50">
-        <main className="mx-auto max-w-7xl px-4 py-8">{children}</main>
+        <main className="mx-auto max-w-7xl px-8 py-8">{children}</main>
       </body>
 
       {/* This component is needed to start Twofold */}

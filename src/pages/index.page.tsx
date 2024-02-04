@@ -27,7 +27,7 @@ async function addCard(formData: FormData) {
 
 export default async function Page() {
   return (
-    <div>
+    <div className="mx-auto max-w-sm sm:mx-0 sm:max-w-none">
       <h1 className="text-5xl font-black tracking-tighter">RSC Optimistic</h1>
       <div className="mt-1">
         <Cards cards={cards} addAction={addCard} />
