@@ -6,10 +6,10 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <html>
       <head>
-        <title>Twofold RSC</title>
+        <title>RSC Optimistic</title>
         <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
       </head>
-      <body>
+      <body className="bg-blue-600 text-gray-50">
         <main className="mx-auto max-w-7xl px-4 py-8">{children}</main>
       </body>
 

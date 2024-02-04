@@ -13,9 +13,9 @@
     "node": ">=20.9.0"
   },
   "dependencies": {
-    "@twofold/framework": "^0.0.6",
-    "react": "18.3.0-canary-60a927d04-20240113",
-    "react-dom": "18.3.0-canary-60a927d04-20240113",
+    "@twofold/framework": "^0.0.8",
+    "react": "18.3.0-canary-4b2a1115a-20240202",
+    "react-dom": "18.3.0-canary-4b2a1115a-20240202",
     "tailwindcss": "^3.4.1"
   },
   "devDependencies": {
@@ -23,8 +23,8 @@
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
     "eslint": "^8.56.0",
-    "eslint-plugin-twofold": "^0.0.6",
-    "prettier": "^3.2.4",
+    "eslint-plugin-twofold": "^0.0.8",
+    "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11"
   }
 }
